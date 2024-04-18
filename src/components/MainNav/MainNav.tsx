@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../Logo/Logo";
+import Link from "next/link";
 
 type Props = {};
 
@@ -23,10 +24,18 @@ const MainNav = (props: Props) => {
         <Logo />
       </div>
       <nav className="col-span-2 flex flex-row gap-6 items-end mb-4">
-        <a className="font-cond-xs opacity-50">Home</a>
-        <a className="font-cond-xs opacity-50">About</a>
-        <a className="font-cond-xs opacity-50">Team</a>
-        <a className="font-cond-xs opacity-50">Contact</a>
+        <Link href={"./"} className="font-cond-xs opacity-50">
+          Home
+        </Link>
+        <Link href={"./about"} className="font-cond-xs opacity-50">
+          About
+        </Link>
+        <Link href={"./team"} className="font-cond-xs opacity-50">
+          Team
+        </Link>
+        <Link href={"./contact"} className="font-cond-xs opacity-50">
+          Contact
+        </Link>
       </nav>
       <div className="col-span-1 flex flex-row gap-6 mb-4 items-end font-cond-xs opacity-50 ">
         Stay up to date
