@@ -36,12 +36,12 @@ export default function Home() {
         />
       </section>
 
-      <section className="mt-48 mb-20 grid grid-cols-8 gap-2">
+      <section className="mt-40 mb-20 grid grid-cols-8 gap-2">
         <h2 className="font-brand-lg col-start-5 col-span-2 mb-4">
           We&apos;re a collective of dreamers, storytellers, and artists
           empowered by technology.
         </h2>
-        <Link href={""} className="font-cond-xs col-start-5 opacity-50 mb-12">
+        <Link href={""} className="font-cond-xs col-start-5 opacity-50 mb-40">
           Meet the team
         </Link>
 
