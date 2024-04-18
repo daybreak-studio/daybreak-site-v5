@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import MainNav from "@/components/MainNav/MainNav";
+import Footer from "@/components/Footer/Footer";
 
 const fractul_regular = localFont({
   src: "../../public/typography/fractul-regular.woff2",
@@ -46,6 +47,7 @@ export default function RootLayout({
       >
         <MainNav />
         {children}
+        <Footer />
       </body>
     </html>
   );

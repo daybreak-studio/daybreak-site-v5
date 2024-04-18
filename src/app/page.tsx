@@ -82,8 +82,6 @@ export default function Home() {
           Contact us
         </Link>
       </section>
-
-      <Footer />
     </main>
   );
 }
