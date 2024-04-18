@@ -49,23 +49,35 @@ const config: Config = {
           "text-transform": "uppercase",
         },
         // factul
-        "brand-xl": {
+        "brand-2xl": {
           "font-family": "var(--font-fractul-regular)",
           "font-size": "72px",
           "letter-spacing": "-0.03rem",
           "line-height": "64px",
         },
-        "brand-lg": {
+        "brand-xl": {
           "font-family": "var(--font-fractul-regular)",
           "font-size": "64px",
           "letter-spacing": "-0.03rem",
           "line-height": "64px",
+        },
+        "brand-lg": {
+          "font-family": "var(--font-fractul-regular)",
+          "font-size": "40px",
+          "letter-spacing": "-0.03rem",
+          "line-height": "46px",
         },
         "brand-md": {
           "font-family": "var(--font-fractul-regular)",
           "font-size": "24px",
           "letter-spacing": "-0.02rem",
           "line-height": "32px",
+        },
+        "brand-sm": {
+          "font-family": "var(--font-fractul-regular)",
+          "font-size": "16px",
+          "letter-spacing": "0.0rem",
+          "line-height": "20px",
         },
       },
 

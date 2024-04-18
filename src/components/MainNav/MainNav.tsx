@@ -5,7 +5,7 @@ type Props = {};
 
 const MainNav = (props: Props) => {
   return (
-    <div className="grid grid-cols-8 h-[60vh] mx-4 my-4">
+    <div className="grid grid-cols-8 h-[60vh] mx-2 my-2 gap-2">
       <h1 className="font-brand-md max-w-[30ch] col-span-5">
         Daybreak Studio combines technology with design to shape brand, web, and
         software experiences.
