@@ -38,14 +38,14 @@ const config: Config = {
           "font-family": "var(--font-founders-grotesk-condensed-regular)",
           "font-size": "14px",
           "letter-spacing": "0.02rem",
-          "line-height": "85%",
+          "line-height": "100%",
           "text-transform": "uppercase",
         },
         "cond-sm": {
           "font-family": "var(--font-founders-grotesk-condensed-regular)",
           "font-size": "16px",
           "letter-spacing": "0.02rem",
-          "line-height": "85%",
+          "line-height": "100%",
           "text-transform": "uppercase",
         },
         // factul

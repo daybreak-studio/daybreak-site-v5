@@ -5,16 +5,16 @@ type Props = {};
 
 const MainNav = (props: Props) => {
   return (
-    <div className="grid grid-cols-8 h-[80vh] mx-4 my-4">
+    <div className="grid grid-cols-8 h-[60vh] mx-4 my-4">
       <h1 className="font-brand-md max-w-[30ch] col-span-5">
         Daybreak Studio combines technology with design to shape brand, web, and
         software experiences.
       </h1>
-      <div className="col-span-2 flex flex-col gap-2">
+      <div className="col-span-2 flex flex-col gap-2 mt-1">
         <a className="font-cond-xs opacity-50">hello@daybreak.studio</a>
         <a className="font-cond-xs opacity-50">careers@daybreak.studio</a>
       </div>
-      <div className="col-span-1 flex flex-col gap-2">
+      <div className="col-span-1 flex flex-col gap-2 mt-1">
         <a className="font-cond-xs opacity-50">Instagram</a>
         <a className="font-cond-xs opacity-50">Twitter</a>
       </div>
