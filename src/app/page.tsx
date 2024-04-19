@@ -2,11 +2,17 @@ import ProjectGrid from "@/components/ProjectGrid/ProjectGrid";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/Footer/Footer";
+import { SanityDocument } from "next-sanity";
+import { CASE_STUDIES_QUERY } from "../../sanity/lib/queries";
+import { loadQuery } from "../../sanity/lib/store";
 
-export default function Home() {
+export default async function Home() {
+  const initial = await loadQuery<SanityDocument[]>(CASE_STUDIES_QUERY);
+  // console.log(initial);
+
   return (
     <main className="bg-white mx-2">
-      <ProjectGrid />
+      <ProjectGrid projects={initial.data} />
       <section className="mt-48 mb-20 grid grid-cols-8 gap-2">
         <h2 className="font-brand-xl mb-6 col-start-5 col-span-4">
           A digital studio rooted in experimentation.

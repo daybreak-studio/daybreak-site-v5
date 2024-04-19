@@ -9,7 +9,7 @@ const Logo = (props: Props) => {
       height="146"
       viewBox="0 0 623 146"
       fill="none"
-      className="h-24 w-fit"
+      className="h-full w-fit"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g clip-path="url(#clip0_2937_12)">

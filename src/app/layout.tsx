@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import MainNav from "@/components/MainNav/MainNav";
 import Footer from "@/components/Footer/Footer";
+import { useRouter } from "next/router";
 
 const fractul_regular = localFont({
   src: "../../public/typography/fractul-regular.woff2",
