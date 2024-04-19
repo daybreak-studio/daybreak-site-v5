@@ -48,13 +48,13 @@ const MainNav = (props: Props) => {
             scale: logoScale,
             y: logoYCompensate,
             transformOrigin: "bottom left",
-            transition: "transform .3s cubic-bezier(0.16, 1, 0.3, 1)",
+            // transition: "transform .3s cubic-bezier(0.16, 1, 0.3, 1)",
           }}
-          className="col-span-5 flex flex-row items-end justify-start my-2 h-12"
+          className="col-start-1 flex flex-row items-end justify-start my-2 h-12"
         >
           <Logo />
         </motion.div>
-        <nav className="col-span-2 flex flex-row gap-6 items-end mb-4">
+        <nav className="col-start-6 col-span-2 flex flex-row gap-6 items-end mb-4">
           <Link href={"./"} className="font-cond-xs opacity-50">
             Home
           </Link>
