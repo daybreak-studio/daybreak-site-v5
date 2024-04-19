@@ -4,3 +4,4 @@ import { caseStudyType } from "./schemaTypes/caseStudyType";
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [caseStudyType],
 };
+

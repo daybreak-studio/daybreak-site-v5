@@ -37,6 +37,19 @@ export const caseStudyType = defineType({
       of: [{ type: "string" }],
     }),
     defineField({
+      name:"object",
+      title:"Credits",
+      type:"array", 
+      of:[{type:"object" , fields:[
+        defineField({name:"name", type:"string"}),
+        defineField({name:"role", type:"string"})
+      ]}],
+      options:{
+        // layout:""
+        }
+      }),
+
+    defineField({
       name: "cover",
       description: "Project cover show up on the landing page",
       type: "image",
